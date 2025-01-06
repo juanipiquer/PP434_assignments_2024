@@ -63,7 +63,7 @@
 
 
         <!-- CODE CHALLENGE 2 -->
-    <section>
+    <section> <!-- CODE CHALLENGE 2 -->
         <div class="chart-description">
             <h2>Code Challenge 2: Embed two charts from econ observatory </h2>
             <p style="margin-top: 1px">  
@@ -81,9 +81,33 @@
 
         vegaEmbed('#Location3', figure_3) 
         vegaEmbed('#Location4', figure_4) 
+
     </script>
 
+
+        <!-- CODE CHALLENGE 3 -->
+        <section>
+            <div class="chart-description">
+                <h2> Code Challenge 3: Two charts on policy commentary </h2>
+                <p style="margin-top: 1px">  
+                    Topic: UK sluggish productivity growth the last 15 years <br><br>
+                    Analysis: Output per hour has been slower, and the redundancy rate has decreased too. This could signal a less dynamic labour market   </p>
+                <h3> Chart 3.1 </h3>
+            </div>
+            <figure id="Location5"></figure> 
+            <h3>Chart 3.2 </h3>
+            <figure id="Location6"></figure> 
+        </section>
     
+        <script>
+            let figure_5 = "charts/chart_3-1.json";
+            let figure_6 = "charts/chart_3-2.json" 
+    
+            vegaEmbed('#Location5', figure_5) 
+            vegaEmbed('#Location6', figure_6) 
+            
+        </script>
+
 
 </body>
     
