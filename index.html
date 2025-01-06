@@ -17,6 +17,7 @@
 </head>
 
 <body> 
+
 <!-- The body tag contains the elements that visitors to our page will see. -->
     <h1 class="big" style="margin-bottom: 0px;"> 
         Juan I. Piquer portfolio :: PP434
@@ -36,10 +37,10 @@
             <h2>Code Challenge 1: Embed two charts </h2>
             <p style="margin-top: 1px">  
                 This are two charts from the examples seen in class </p>
-            <h3> Chart 1 </h3>
+            <h3> Chart 1.1 </h3>
         </div>
         <figure id="Location1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-        <h3>Chart 2 </h3>
+        <h3> Chart 2.2 </h3>
         <figure id="Location2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
 
@@ -70,18 +71,18 @@
             <h2>Code Challenge 2: Embed two charts from econ observatory </h2>
             <p style="margin-top: 1px">  
                 This are two charts from economic observatory </p>
-            <h3> Chart 3 </h3>
+            <h3> Chart 2.1 </h3>
         </div>
         <figure id="Location3"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-        <h3>Chart 4 </h3>
+        <h3>Chart 2.2 </h3>
         <figure id="Location4"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
 
     <script>
         // This is a comment in JavaScript - it's a different language to HTML and CSS
 
-        let figure_3 = "charts/chart_3.json"; // We're storing the URL of the graph we want to display in a variable
-        let figure_4 = "charts/wk1_chart2.json" 
+        let figure_3 = "charts/chart_2-1.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure_4 = "charts/chart_2-2.json" 
 
         vegaEmbed('#Location3', figure_3) 
         vegaEmbed('#Location4', figure_4) 
