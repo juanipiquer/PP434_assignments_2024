@@ -1,0 +1,1866 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 1990,
+        "gdp_pc": 44378.5240269919
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 1990,
+        "gdp_pc": 29945.146484375
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 1990,
+        "gdp_pc": 3199.72962609833
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 1990,
+        "gdp_pc": 3650.67300166823
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 1990,
+        "gdp_pc": 4873.05380133263
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 1990,
+        "gdp_pc": 2203.14703867968
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 1990,
+        "gdp_pc": 1645.57894422689
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 1990,
+        "gdp_pc": 12633.288457041
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 1990,
+        "gdp_pc": 2069.78230100672
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 1991,
+        "gdp_pc": 43742.0261179101
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 1991,
+        "gdp_pc": 28352.435546875
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 1991,
+        "gdp_pc": 3252.35104026309
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 1991,
+        "gdp_pc": 3568.25836376376
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 1991,
+        "gdp_pc": 5118.46789591815
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 1991,
+        "gdp_pc": 2178.6859145401
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 1991,
+        "gdp_pc": 1773.63941146097
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 1991,
+        "gdp_pc": 12546.5605015305
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 1991,
+        "gdp_pc": 2101.38366035658
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 1992,
+        "gdp_pc": 44659.1514630623
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 1992,
+        "gdp_pc": 24209.033203125
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 1992,
+        "gdp_pc": 3404.12138406329
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 1992,
+        "gdp_pc": 3636.77129188841
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 1992,
+        "gdp_pc": 5357.3758979759
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 1992,
+        "gdp_pc": 2249.69790389274
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 1992,
+        "gdp_pc": 2001.25427432785
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 1992,
+        "gdp_pc": 12271.9788488259
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 1992,
+        "gdp_pc": 2174.38232866943
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 1993,
+        "gdp_pc": 45286.9355079968
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 1993,
+        "gdp_pc": 22122.291015625
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 1993,
+        "gdp_pc": 3369.23795906028
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 1993,
+        "gdp_pc": 3469.5804413913
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 1993,
+        "gdp_pc": 5609.15178814269
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 1993,
+        "gdp_pc": 2307.60714181108
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 1993,
+        "gdp_pc": 2253.05201995372
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 1993,
+        "gdp_pc": 12669.428721959
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 1993,
+        "gdp_pc": 2234.8101219225
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 1994,
+        "gdp_pc": 46537.3571463242
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 1994,
+        "gdp_pc": 19348.201171875
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 1994,
+        "gdp_pc": 3395.50432067539
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 1994,
+        "gdp_pc": 3317.80739433689
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 1994,
+        "gdp_pc": 5931.23473426762
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 1994,
+        "gdp_pc": 2411.46273689083
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 1994,
+        "gdp_pc": 2518.15488829059
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 1994,
+        "gdp_pc": 13202.9308022136
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 1994,
+        "gdp_pc": 2279.09435302944
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 1995,
+        "gdp_pc": 47220.9579606654
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 1995,
+        "gdp_pc": 18550.51953125
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 1995,
+        "gdp_pc": 3462.47336165841
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 1995,
+        "gdp_pc": 3229.12414149508
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 1995,
+        "gdp_pc": 6312.93453561158
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 1995,
+        "gdp_pc": 2542.42211133345
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 1995,
+        "gdp_pc": 2763.79976168459
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 1995,
+        "gdp_pc": 13550.4393746368
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 1995,
+        "gdp_pc": 2351.70387946903
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 1996,
+        "gdp_pc": 48435.7001019098
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 1996,
+        "gdp_pc": 17879.921875
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 1996,
+        "gdp_pc": 3526.14160875155
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 1996,
+        "gdp_pc": 3277.79452243956
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 1996,
+        "gdp_pc": 6695.40975787395
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 1996,
+        "gdp_pc": 2680.27888437082
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 1996,
+        "gdp_pc": 3006.36270788632
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 1996,
+        "gdp_pc": 13641.6296006557
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 1996,
+        "gdp_pc": 2413.54298201505
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 1997,
+        "gdp_pc": 49984.2696503869
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 1997,
+        "gdp_pc": 18160.228515625
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 1997,
+        "gdp_pc": 3462.58145605889
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 1997,
+        "gdp_pc": 3287.37000476584
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 1997,
+        "gdp_pc": 6897.00236563331
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 1997,
+        "gdp_pc": 2734.52089133672
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 1997,
+        "gdp_pc": 3250.61457325231
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 1997,
+        "gdp_pc": 13896.6249911865
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 1997,
+        "gdp_pc": 2475.59574602489
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 1998,
+        "gdp_pc": 51619.8698342493
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 1998,
+        "gdp_pc": 17226.2265625
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 1998,
+        "gdp_pc": 3454.17665330544
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 1998,
+        "gdp_pc": 3285.23803980641
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 1998,
+        "gdp_pc": 5897.68530859207
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 1998,
+        "gdp_pc": 2847.96234988663
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 1998,
+        "gdp_pc": 3472.17856130428
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 1998,
+        "gdp_pc": 13737.7026444226
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 1998,
+        "gdp_pc": 2555.06119218282
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 1999,
+        "gdp_pc": 53474.0454297601
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 1999,
+        "gdp_pc": 18385.46484375
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 1999,
+        "gdp_pc": 3484.45678319813
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 1999,
+        "gdp_pc": 3218.46357365696
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 1999,
+        "gdp_pc": 5855.65800744994
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 1999,
+        "gdp_pc": 3041.48258556057
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 1999,
+        "gdp_pc": 3705.97720676034
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 1999,
+        "gdp_pc": 13602.4137078439
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 1999,
+        "gdp_pc": 2624.06553797638
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2000,
+        "gdp_pc": 55038.6224962336
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2000,
+        "gdp_pc": 20309.267578125
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2000,
+        "gdp_pc": 3531.71291531612
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2000,
+        "gdp_pc": 3290.70566119181
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2000,
+        "gdp_pc": 6056.38197842165
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2000,
+        "gdp_pc": 3099.5028215766
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2000,
+        "gdp_pc": 3989.06189555851
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2000,
+        "gdp_pc": 14005.347188511
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2000,
+        "gdp_pc": 2712.93512215725
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2001,
+        "gdp_pc": 55017.3049779076
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2001,
+        "gdp_pc": 21435.765625
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2001,
+        "gdp_pc": 3559.72784658715
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2001,
+        "gdp_pc": 3392.03528516309
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2001,
+        "gdp_pc": 6190.51954040991
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2001,
+        "gdp_pc": 3188.81024020636
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2001,
+        "gdp_pc": 4290.30208092921
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2001,
+        "gdp_pc": 14016.1313783123
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2001,
+        "gdp_pc": 2803.55471950946
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2002,
+        "gdp_pc": 55436.116979089
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2002,
+        "gdp_pc": 22546.7265625
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2002,
+        "gdp_pc": 3563.67846926558
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2002,
+        "gdp_pc": 3806.21589634462
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2002,
+        "gdp_pc": 6381.94955179996
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2002,
+        "gdp_pc": 3250.69565544917
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2002,
+        "gdp_pc": 4650.89682139111
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2002,
+        "gdp_pc": 14265.9048781372
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2002,
+        "gdp_pc": 2866.43454328715
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2003,
+        "gdp_pc": 56498.2078306327
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2003,
+        "gdp_pc": 24302.658203125
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2003,
+        "gdp_pc": 3668.77938852508
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2003,
+        "gdp_pc": 3974.76787469397
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2003,
+        "gdp_pc": 6599.09193597034
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2003,
+        "gdp_pc": 3445.92592352395
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2003,
+        "gdp_pc": 5085.97783096768
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2003,
+        "gdp_pc": 14259.3664100397
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2003,
+        "gdp_pc": 2958.91503115633
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2004,
+        "gdp_pc": 58131.6336824976
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2004,
+        "gdp_pc": 26157.556640625
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2004,
+        "gdp_pc": 3859.64601808903
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2004,
+        "gdp_pc": 4223.7979478186
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2004,
+        "gdp_pc": 6843.54654972364
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2004,
+        "gdp_pc": 3656.12620652098
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2004,
+        "gdp_pc": 5567.19061247801
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2004,
+        "gdp_pc": 14911.2609620174
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2004,
+        "gdp_pc": 3071.83778764611
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2005,
+        "gdp_pc": 59604.7536359083
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2005,
+        "gdp_pc": 27937.998046875
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2005,
+        "gdp_pc": 4042.15457513378
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2005,
+        "gdp_pc": 4372.97561105085
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2005,
+        "gdp_pc": 7140.8545640704
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2005,
+        "gdp_pc": 3881.9661798273
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2005,
+        "gdp_pc": 6165.18344017524
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2005,
+        "gdp_pc": 15221.0138293364
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2005,
+        "gdp_pc": 3231.61370692891
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2006,
+        "gdp_pc": 60676.565569186
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2006,
+        "gdp_pc": 30328.078125
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2006,
+        "gdp_pc": 4185.86655659206
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2006,
+        "gdp_pc": 4511.63952365517
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2006,
+        "gdp_pc": 7434.48785352221
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2006,
+        "gdp_pc": 4129.77837009239
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2006,
+        "gdp_pc": 6910.75785854773
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2006,
+        "gdp_pc": 15657.4795729144
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2006,
+        "gdp_pc": 3407.4273502159
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2007,
+        "gdp_pc": 61306.5969389997
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2007,
+        "gdp_pc": 32962.30078125
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2007,
+        "gdp_pc": 4257.92556870432
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2007,
+        "gdp_pc": 4677.54184720889
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2007,
+        "gdp_pc": 7802.46406905954
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2007,
+        "gdp_pc": 4379.69604361151
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2007,
+        "gdp_pc": 7853.09639538115
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2007,
+        "gdp_pc": 16440.5837413089
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2007,
+        "gdp_pc": 3608.91543819399
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2008,
+        "gdp_pc": 60798.4338395386
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2008,
+        "gdp_pc": 34691.57421875
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2008,
+        "gdp_pc": 4233.34830715497
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2008,
+        "gdp_pc": 4856.81280081835
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2008,
+        "gdp_pc": 8165.06155116624
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2008,
+        "gdp_pc": 4450.39022919238
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2008,
+        "gdp_pc": 8566.96485435217
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2008,
+        "gdp_pc": 17113.3679835935
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2008,
+        "gdp_pc": 3787.9382761855
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2009,
+        "gdp_pc": 58714.9736881612
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2009,
+        "gdp_pc": 31976.005859375
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2009,
+        "gdp_pc": 4270.43882264229
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2009,
+        "gdp_pc": 5102.91640379355
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2009,
+        "gdp_pc": 8435.4557468629
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2009,
+        "gdp_pc": 4731.36160463896
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2009,
+        "gdp_pc": 9325.65077925533
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2009,
+        "gdp_pc": 16939.4407823485
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2009,
+        "gdp_pc": 3942.13631207203
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2010,
+        "gdp_pc": 59799.2868624573
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2010,
+        "gdp_pc": 33399.92578125
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2010,
+        "gdp_pc": 4228.7817715945
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2010,
+        "gdp_pc": 5359.51848370873
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2010,
+        "gdp_pc": 8848.22473702066
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2010,
+        "gdp_pc": 5059.2827108398
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2010,
+        "gdp_pc": 10267.8056684447
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2010,
+        "gdp_pc": 18062.1581117688
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2010,
+        "gdp_pc": 4125.46390163202
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2011,
+        "gdp_pc": 60294.978803066
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2011,
+        "gdp_pc": 34795.03515625
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2011,
+        "gdp_pc": 4246.06710882497
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2011,
+        "gdp_pc": 5488.00481519556
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2011,
+        "gdp_pc": 9274.96955181702
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2011,
+        "gdp_pc": 5249.54925694026
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2011,
+        "gdp_pc": 11187.1660995211
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2011,
+        "gdp_pc": 18627.8104543865
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2011,
+        "gdp_pc": 4352.42643359325
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2012,
+        "gdp_pc": 61224.405542414
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2012,
+        "gdp_pc": 36104.2734375
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2012,
+        "gdp_pc": 4292.02110293486
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2012,
+        "gdp_pc": 5563.64167560671
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2012,
+        "gdp_pc": 9708.61182531081
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2012,
+        "gdp_pc": 5460.43768570052
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2012,
+        "gdp_pc": 11985.3171249131
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2012,
+        "gdp_pc": 18832.2195541702
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2012,
+        "gdp_pc": 4592.04840919812
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2013,
+        "gdp_pc": 62089.3482369609
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2013,
+        "gdp_pc": 36628.921875
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2013,
+        "gdp_pc": 4407.14705841377
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2013,
+        "gdp_pc": 5775.86634650721
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2013,
+        "gdp_pc": 10121.8141535043
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2013,
+        "gdp_pc": 5732.24189090876
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2013,
+        "gdp_pc": 12830.3699705085
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2013,
+        "gdp_pc": 19241.5059830671
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2013,
+        "gdp_pc": 4822.72621378266
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2014,
+        "gdp_pc": 63191.2477805927
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2014,
+        "gdp_pc": 36217.96484375
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2014,
+        "gdp_pc": 4520.23463399286
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2014,
+        "gdp_pc": 5980.191816483
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2014,
+        "gdp_pc": 10504.3869411088
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2014,
+        "gdp_pc": 6079.84393523695
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2014,
+        "gdp_pc": 13696.5174948492
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2014,
+        "gdp_pc": 19183.172746126
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2014,
+        "gdp_pc": 5068.63965672741
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2015,
+        "gdp_pc": 64575.4081869043
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2015,
+        "gdp_pc": 35393.5703125
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2015,
+        "gdp_pc": 4645.28631071145
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2015,
+        "gdp_pc": 5985.09435248731
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2015,
+        "gdp_pc": 10893.6621142169
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2015,
+        "gdp_pc": 6488.14602910787
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2015,
+        "gdp_pc": 14575.9347897624
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2015,
+        "gdp_pc": 18357.0690632249
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2015,
+        "gdp_pc": 5352.71133299566
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2016,
+        "gdp_pc": 65275.5718178599
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2016,
+        "gdp_pc": 35361.546875
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2016,
+        "gdp_pc": 4886.61212115378
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2016,
+        "gdp_pc": 5744.55787877157
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2016,
+        "gdp_pc": 11319.6634287738
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2016,
+        "gdp_pc": 6940.62588857522
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2016,
+        "gdp_pc": 15485.2130054608
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2016,
+        "gdp_pc": 17620.9272447823
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2016,
+        "gdp_pc": 5682.53553494306
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2017,
+        "gdp_pc": 66458.0233734963
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2017,
+        "gdp_pc": 35932.234375
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2017,
+        "gdp_pc": 5031.56060738433
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2017,
+        "gdp_pc": 5651.73413165037
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2017,
+        "gdp_pc": 11772.5743296107
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2017,
+        "gdp_pc": 7326.60693679859
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2017,
+        "gdp_pc": 16461.069929896
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2017,
+        "gdp_pc": 17724.4799591551
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2017,
+        "gdp_pc": 6005.70718781048
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2018,
+        "gdp_pc": 68070.213421811
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2018,
+        "gdp_pc": 36908.3671875
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2018,
+        "gdp_pc": 5255.06350681272
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2018,
+        "gdp_pc": 5628.74079442015
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2018,
+        "gdp_pc": 12262.2310300771
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2018,
+        "gdp_pc": 7714.33974724531
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2018,
+        "gdp_pc": 17490.1667301804
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2018,
+        "gdp_pc": 17917.7492137276
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2018,
+        "gdp_pc": 6392.59334024091
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2019,
+        "gdp_pc": 69511.7634409067
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2019,
+        "gdp_pc": 37698.953125
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2019,
+        "gdp_pc": 5295.95295138203
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2019,
+        "gdp_pc": 5628.17765244652
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2019,
+        "gdp_pc": 12757.7850854842
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2019,
+        "gdp_pc": 7930.0911303899
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2019,
+        "gdp_pc": 18465.298945245
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2019,
+        "gdp_pc": 18018.6209165513
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2019,
+        "gdp_pc": 6838.32611608243
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2020,
+        "gdp_pc": 67352.3871392801
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2020,
+        "gdp_pc": 36746.375
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2020,
+        "gdp_pc": 5135.01459288839
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2020,
+        "gdp_pc": 5410.69355517726
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2020,
+        "gdp_pc": 12388.5449268131
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2020,
+        "gdp_pc": 7399.53068079041
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2020,
+        "gdp_pc": 18833.7847033116
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2020,
+        "gdp_pc": 17327.5157262925
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2020,
+        "gdp_pc": 7015.19792797056
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2021,
+        "gdp_pc": 71318.3073592183
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2021,
+        "gdp_pc": 38938.49609375
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2021,
+        "gdp_pc": 5367.27364714762
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2021,
+        "gdp_pc": 5491.70034068297
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2021,
+        "gdp_pc": 12757.0746440204
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2021,
+        "gdp_pc": 8050.01857452664
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2021,
+        "gdp_pc": 20406.7296584605
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2021,
+        "gdp_pc": 18075.7060063108
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2021,
+        "gdp_pc": 7441.06913961254
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2022,
+        "gdp_pc": 72841.9243127082
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2022,
+        "gdp_pc": 38263.6171875
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2022,
+        "gdp_pc": 5526.27928310213
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2022,
+        "gdp_pc": 5552.83764994957
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2022,
+        "gdp_pc": 13334.293520304
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2022,
+        "gdp_pc": 8544.68888383182
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2022,
+        "gdp_pc": 21011.6171309077
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2022,
+        "gdp_pc": 18554.0461842977
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2022,
+        "gdp_pc": 7888.16389098304
+      },
+      {
+        "economy": "USA",
+        "Country": "United States",
+        "year": 2023,
+        "gdp_pc": 74577.5065396723
+      },
+      {
+        "economy": "RUS",
+        "Country": "Russian Federation",
+        "year": 2023,
+        "gdp_pc": 39753.45703125
+      },
+      {
+        "economy": "PAK",
+        "Country": "Pakistan",
+        "year": 2023,
+        "gdp_pc": 5439.18762006677
+      },
+      {
+        "economy": "NGA",
+        "Country": "Nigeria",
+        "year": 2023,
+        "gdp_pc": 5593.05661448231
+      },
+      {
+        "economy": "IDN",
+        "Country": "Indonesia",
+        "year": 2023,
+        "gdp_pc": 13889.8828825663
+      },
+      {
+        "economy": "IND",
+        "Country": "India",
+        "year": 2023,
+        "gdp_pc": 9160.06365370888
+      },
+      {
+        "economy": "CHN",
+        "Country": "China",
+        "year": 2023,
+        "gdp_pc": 22137.5998277466
+      },
+      {
+        "economy": "BRA",
+        "Country": "Brazil",
+        "year": 2023,
+        "gdp_pc": 19018.2390697496
+      },
+      {
+        "economy": "BGD",
+        "Country": "Bangladesh",
+        "year": 2023,
+        "gdp_pc": 8242.39798977242
+      }
+    ]
+  },
+  "mark": "line",
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "title": "Year"
+    },
+    "y": {
+      "field": "gdp_pc",
+      "type": "quantitative",
+      "title": "GDP per Capita"
+    },
+    "color": {
+      "field": "Country",
+      "type": "nominal",
+      "title": "Country"
+    },
+    "facet": {
+      "field": "Country",
+      "type": "nominal",
+      "columns": 3
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "Trend of Government Bond Maturities by Year, Chile",
+        "anchor": "start",
+        "subtitle": "Only bonds issued in 2024 | Source: Finance ministery of Chile",
+        "fontSize": "17",
+        "subtitleFontSize": "14",
+        "color": "#000000",
+        "subtitleColor": "#000000"
+    },
+    "height": "400",
+    "width": "600",
+    "autosize": {
+        "type": "fit",
+        "contains": "padding"
+    },
+    "background": "#ffffff",
+    "view": {
+        "fill": "#ffffff",
+        "strokeOpacity": 0
+    },
+    "data": {
+        "values": [
+            {
+                "Year of Maturity": 2027,
+                "Placed (USD)": 569391483.9529711
+            },
+            {
+                "Year of Maturity": 2029,
+                "Placed (USD)": 525301874.8013982
+            },
+            {
+                "Year of Maturity": 2030,
+                "Placed (USD)": 700071496.6634891
+            },
+            {
+                "Year of Maturity": 2033,
+                "Placed (USD)": 325508420.7181443
+            },
+            {
+                "Year of Maturity": 2040,
+                "Placed (USD)": 924491579.2818558
+            },
+            {
+                "Year of Maturity": 2050,
+                "Placed (USD)": 317762948.84016526
+            },
+            {
+                "Year of Maturity": 2056,
+                "Placed (USD)": 625595805.5290754
+            }
+        ]
+    },
+    "mark": {
+        "type": "line",
+        "color": "red",
+        "strokeWidth": 3
+    },
+    "encoding": {
+        "x": {
+            "field": "Year of Maturity",
+            "type": "ordinal",
+            "title": "Year of Maturity",
+            "axis": {
+                "title": "Year",
+                "labelAngle": 0,
+                "labelFontSize": 12,
+                "titleFontSize": 14
+            }
+        },
+        "y": {
+            "field": "Placed (USD)",
+            "type": "quantitative",
+            "title": "Total Amount placed (USD)",
+            "axis": {
+                "title": "Total Amount of Bonds Maturing (USD)",
+                "labelAngle": 0,
+                "labelFontSize": 12,
+                "titleFontSize": 14
+            },
+            "tooltip": [
+                {
+                    "field": "Year of Maturity",
+                    "type": "ordinal"
+                },
+                {
+                    "field": "Placed (USD)",
+                    "type": "quantitative"
+                }
+            ]
+        }
+    }
+}
