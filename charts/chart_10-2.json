@@ -4,7 +4,9 @@
   "title": {
     "text": "Density of Opposition Share by Poverty Index",
     "anchor": "start",
-    "color": "black"
+    "color": "black",
+    "fontSize": 14
+
   },
 
   "width": 600,

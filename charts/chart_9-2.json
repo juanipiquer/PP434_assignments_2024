@@ -1,6 +1,6 @@
 {"config": {"view": {"continuousWidth": 400, "continuousHeight": 400}}, "data": {"name": "data-4088ecb3201b67afd1d7142463780b54"}, 
 
-"mark": {"type": "point", "filled": true, "size": 60}, "encoding": {"color": {"field": "prop_poors_bin", "type": "nominal"}, "tooltip": [{"field": "comuna", "type": "nominal"}, {"field": "opp_share", "type": "quantitative"}, {"field": "prop_poors", "type": "quantitative"}, {"field": "prop_poors_bin", "type": "ordinal"}], "x": {"field": "opp_share", "title": "Opposition Share", "type": "quantitative"}, "y": {"field": "prop_poors_bin", "sort": ["Bin 1", "Bin 2", "Bin 3", "Bin 4"], "title": "Proportion of Poors Bin", "type": "ordinal"}}, "title": "Opposition Share by Proportion of Poors Bin", "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json", 
+"mark": {"type": "point", "filled": true, "size": 60}, "encoding": {"color": {"field": "prop_poors_bin", "type": "nominal"}, "tooltip": [{"field": "comuna", "type": "nominal"}, {"field": "opp_share", "type": "quantitative"}, {"field": "prop_poors", "type": "quantitative"}, {"field": "prop_poors_bin", "type": "ordinal"}], "x": {"field": "opp_share", "title": "Opposition Share", "type": "quantitative"}, "y": {"field": "prop_poors_bin", "sort": ["Bin 1", "Bin 2", "Bin 3", "Bin 4"], "title": " ", "type": "ordinal"}}, "title": "Opposition Share by Proportion of Poors Bin", "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json", 
 
 "height": 150,
 "width": 600,
