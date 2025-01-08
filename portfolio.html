@@ -137,7 +137,7 @@
                 <p>
                     The web scrapping code is in this
                     <a href="https://colab.research.google.com/drive/1_uNU7iZcQUc90-FNBhYhGz0MwMaOV1Xd?usp=sharing" target="_blank">
-                        Colab
+                        Colab scrapping
                     </a> , and also in the github repository
                     <br><br>
                     I choosed Chile's maturing dates of bonds placed during 2024, 
@@ -165,7 +165,7 @@
             <div class="chart-description">
                 <h2> Code Challenge 6: API dashboard </h2>
                 <p>
-                    The dashboard code is in this collab 
+                    The dashboard code is in this colab 
                     <a href="https://colab.research.google.com/drive/1VUwtVMqT2tqxtE_q30mBvwGv97Jwbr2-?usp=sharing" target="_blank">
                         Colab API Dashboard
                     </a>
@@ -193,7 +193,11 @@
         <section>
             <div class="chart-description">
                 <h2> Code Challenge 7: Maps </h2> 
-                <p>Data, json and code taken from Vega public repo</p>      
+                <p>Data, json and code taken from Vega public repo. <br>
+
+                    The Map shows the unemployment rate by county
+
+                </p>      
             <h3> Chart 7.1: plain map with entity id hover </h3>
             </div>
             <figure id="Location11"></figure> 
@@ -213,11 +217,103 @@
 
 
         </script>
-    
 
+         <!-- CODE CHALLENGE 8 -->
+         <section>
+            <div class="chart-description">
+                <h2> Code Challenge 8: Big Data </h2> 
+                <p>Data from daily prices 23-24. 
+                    <br>
+                    The data cleaning code is in this colab 
+                    <a href="https://colab.research.google.com/drive/1ekBwMswIxwlHDQZlfLgvS0S4QSV7LpBe?usp=sharing" target="_blank">
+                        Colab big data cleaning
+                    </a>
+                    
+                </p>      
+            <h3> Chart 8.1: density of prices by store, last date</h3>
+            </div>
+            <figure id="Location13"></figure> 
+            <h3>Chart 8.2: Trend of average price per store</h3>
+            <figure id="Location14"></figure> 
+            </p>
+
+        </section>
     
+        <script>
+
+            let figure_13 = "charts/chart_8-1.json";
+            let figure_14 = "charts/chart_8-2.json"
+
+            vegaEmbed('#Location13', figure_13) 
+            vegaEmbed('#Location14', figure_14) 
+
+
+        </script>
+    
+        <!-- CODE CHALLENGE 9 -->
+        <section>
+            <div class="chart-description">
+                <h2> Code Challenge 9: Advanced analytics </h2> 
+                <p> Chilean electoral results <br>
+                    The data code is in this colab 
+                    <a href="https://colab.research.google.com/drive/1ekBwMswIxwlHDQZlfLgvS0S4QSV7LpBe?usp=sharing" target="_blank">
+                        Colab advance analytics
+                    </a>
+
+                </p>      
+            <h3> Chart 9.1: scatter-bubble plot wiht reg line </h3>
+            </div>
+            <figure id="Location15"></figure> 
+            <h3>Chart 9.2: bla bla cloropleth</h3>
+            <figure id="Location16"></figure> 
+            </p>
+
+        </section>
+    
+        <script>
+
+            let figure_15 = "charts/chart_9-1.json";
+            let figure_16 = "charts/chart_9-2.json"
+
+            vegaEmbed('#Location15', figure_15) 
+            vegaEmbed('#Location16', figure_16) 
+
+        </script>
+
+
+        <!-- CODE CHALLENGE 10 -->
+        <section>
+            <div class="chart-description">
+                <h2> Code Challenge 10: Interactive graphs </h2> 
+                <p> Chilean electoral results <br>
+                    The data code is in this colab 
+                    <a href="https://colab.research.google.com/drive/1ekBwMswIxwlHDQZlfLgvS0S4QSV7LpBe?usp=sharing" target="_blank">
+                        Colab interactive graphs
+                    </a>
+
+                </p>      
+            <h3> Chart 10.1: scatter-bubble plot wiht reg line </h3>
+            </div>
+            <figure id="Location15"></figure> 
+            <h3>Chart 10.2: bla bla sliders</h3>
+            <figure id="Location16"></figure> 
+            </p>
+
+        </section>
+    
+        <script>
+
+            let figure_17 = "charts/chart_10-1.json";
+            let figure_18 = "charts/chart_10-2.json"
+
+            vegaEmbed('#Location15', figure_17) 
+            vegaEmbed('#Location16', figure_18) 
+
+        </script>
+
 
 
 </body>
     
 </html>
+|
