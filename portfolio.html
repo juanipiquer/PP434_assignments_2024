@@ -262,26 +262,28 @@
         <section>
             <div class="chart-description">
                 <h2> Code Challenge 9: Advanced analytics </h2> 
-                <p> Chilean electoral results <br>
-                    The data code is in this colab 
-                    <a href="https://colab.research.google.com/drive/1ekBwMswIxwlHDQZlfLgvS0S4QSV7LpBe?usp=sharing" target="_blank">
-                        Colab advance analytics
-                    </a>
-
+                <p> Chilean electoral results from local elections in october 2024.
+                    Results collapsed to opposition_share of votes by county. 
+                    Then merged with poverty index by county.
+                    <br>
+                    The data code is in the notebook project_pipeline in the repo.
                 </p>      
-            <h3> Chart 9.1: scatter-bubble plot wiht reg line </h3>
+            <h3> Chart 9.1: Local elections 2024 results in Chile </h3>
+            <p> Share of votes of opposition regressed on Poverty index <br> 
+            </p>
             </div>
             <figure id="Location15"></figure> 
-            <h3>Chart 9.2: bla bla cloropleth</h3>
+            <h3>Chart 9.2: Opposition share of votes distribution by binned poverty index</h3>
+            <p> Bin 1: Poorer; Bin 4: less Poorer. Bin limits at quartiles of poverty index </p>
             <figure id="Location16"></figure> 
-            </p>
+           
 
         </section>
     
         <script>
 
-            let figure_15 = "charts/chart_4-1.json";
-            let figure_16 = "charts/chart_4-2.json"
+            let figure_15 = "charts/chart_9-1.json";
+            let figure_16 = "charts/chart_9-2.json"
 
             vegaEmbed('#Location15', figure_15) 
             vegaEmbed('#Location16', figure_16) 
@@ -294,25 +296,24 @@
             <div class="chart-description">
                 <h2> Code Challenge 10: Interactive graphs </h2> 
                 <p> Chilean electoral results <br>
-                    The data code is in this colab 
-                    <a href="https://colab.research.google.com/drive/1ekBwMswIxwlHDQZlfLgvS0S4QSV7LpBe?usp=sharing" target="_blank">
-                        Colab interactive graphs
-                    </a>
 
                 </p>      
-            <h3> Chart 10.1: scatter-bubble plot wiht reg line </h3>
+            <h3> Chart 10.1: scatter-bubble plot wiht reg line and slider 
+                for total populatio filtering </h3>
             </div>
             <figure id="Location17"></figure> 
-            <h3>Chart 10.2: bla bla sliders</h3>
+            <h3>Chart 10.2: Density plot with slider to window of poverty index </h3>
+        </p> this could be useful to see how the distribution of the opposition share of votes changes
+         when the poverty index is restricted in its limits </p>
+        change 
             <figure id="Location18"></figure> 
-            </p>
 
         </section>
     
         <script>
 
-            let figure_17 = "charts/chart_4-1.json";
-            let figure_18 = "charts/chart_4-2.json"
+            let figure_17 = "charts/chart_10-1.json";
+            let figure_18 = "charts/chart_10-2.json"
 
             vegaEmbed('#Location17', figure_17) 
             vegaEmbed('#Location18', figure_18) 
