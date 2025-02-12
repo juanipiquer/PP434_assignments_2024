@@ -1,7 +1,7 @@
 import networkx as nx
 import pandas as pd
-from collections import Counter
-from dash import Dash, dcc, html, Input, Output
+import collections 
+import dash 
 import plotly.graph_objects as go
 
 # Load data
