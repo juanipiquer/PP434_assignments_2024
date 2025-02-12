@@ -1,5 +1,4 @@
-collections
 networkx
 pandas
 dash
-plotly.graph_objects
+plotly
