@@ -1,12 +1,13 @@
 import networkx as nx
 import pandas as pd
 import dash
+from dash import Dash, dcc, html, Input, Output
 import plotly
+import plotly.graph_objects as go
 
 
 # Load data
 df = pd.read_csv("openalex_combined_dataset.csv")
-
 
 # Introduce Dash app
 app = Dash(__name__)
@@ -34,7 +35,7 @@ app.layout = html.Div([
         max=2023,
         step=1,
         value=[1993, 2023],
-        marks={year: str(year) for year in range(1993, 2024, 5)}  # Every 5 years
+        marks={year: str(year) for year in range(1993, 2024, 5)}
     ),
     
     # Graph for visualization
@@ -62,8 +63,13 @@ def update_country_graph(selected_topic, selected_years):
             for j in range(i + 1, len(countries)):
                 country_edges.append((countries[i], countries[j]))
     
-    # Count the country pairs
-    country_pairs = Counter(country_edges)
+    # Manually count the country pairs
+    country_pairs = {}
+    for pair in country_edges:
+        if pair in country_pairs:
+            country_pairs[pair] += 1
+        else:
+            country_pairs[pair] = 1
 
     # Build the graph
     G_country = nx.Graph()
@@ -130,3 +136,4 @@ def update_country_graph(selected_topic, selected_years):
 # Run the Dash app
 if __name__ == "__main__":
     app.run_server(debug=True)
+
