@@ -1,11 +1,11 @@
-from itertools import combinations
-from collections import Counter
+import itertools
+import collections
 import networkx as nx
 import pandas as pd
-from dash import Dash, dcc, html, Input, Output
+import dash
 import plotly.graph_objects as go
 
-df = pd.read_csv("Grant - OpenAlex/openalex_combined_dataset.csv")
+df = pd.read_csv("openalex_combined_dataset.csv")
 
 #introduce dash app
 app = Dash(__name__)
