@@ -1,11 +1,12 @@
 import networkx as nx
 import pandas as pd
-import collections
 import dash
 import plotly
 
+
 # Load data
 df = pd.read_csv("openalex_combined_dataset.csv")
+
 
 # Introduce Dash app
 app = Dash(__name__)
