@@ -1,2 +1,6 @@
+itertools
+collections
+networkx
+pandas
 dash
-dash_cytoscape
+plotly.graph_objects
