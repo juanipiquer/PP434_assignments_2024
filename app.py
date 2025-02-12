@@ -1,20 +1,20 @@
-import itertools
-import collections
 import networkx as nx
 import pandas as pd
-import dash
+from collections import Counter
+from dash import Dash, dcc, html, Input, Output
 import plotly.graph_objects as go
 
-df = pd.read_csv("openalex_combined_dataset.csv")
+# Load data
+df = pd.read_csv("Grant - OpenAlex/openalex_combined_dataset.csv")
 
-#introduce dash app
+# Introduce Dash app
 app = Dash(__name__)
 
-#layout
+# Layout
 app.layout = html.Div([
     html.H1("Country Collaboration Network by Topic and Year"),
     
-    #topic filter
+    # Topic filter
     dcc.Dropdown(
         id="topic-filter",
         options=[
@@ -26,51 +26,53 @@ app.layout = html.Div([
         clearable=False
     ),
     
-    #slider
+    # Slider
     dcc.RangeSlider(
         id="year-slider",
         min=1993,
         max=2023,
         step=1,
         value=[1993, 2023],
-        marks={year: str(year) for year in range(1993, 2024, 5)}  #i want every 5 years
+        marks={year: str(year) for year in range(1993, 2024, 5)}  # Every 5 years
     ),
     
-    #graph for viz
+    # Graph for visualization
     dcc.Graph(id="country-network-graph")
 ])
 
-#topic and year range
+# Topic and year range
 @app.callback(
     Output("country-network-graph", "figure"),
     [Input("topic-filter", "value"), Input("year-slider", "value")]
 )
 def update_country_graph(selected_topic, selected_years):
-    #filter by topic and year range
+    # Filter by topic and year range
     filtered_df = df[
         (df['Topic'] == selected_topic) & 
         (df['Year'] >= selected_years[0]) & 
         (df['Year'] <= selected_years[1])
     ]
 
-    #set country pairs
+    # Set country pairs manually
     country_edges = []
     for _, row in filtered_df.iterrows():
         countries = list(set(row['Institution Country'].split(', ')))
-        country_edges += list(combinations(countries, 2))
+        for i in range(len(countries)):
+            for j in range(i + 1, len(countries)):
+                country_edges.append((countries[i], countries[j]))
     
-    #count the country pairs
+    # Count the country pairs
     country_pairs = Counter(country_edges)
 
-    #build the graph
+    # Build the graph
     G_country = nx.Graph()
     for pair, weight in country_pairs.items():
         G_country.add_edge(pair[0], pair[1], weight=weight)
 
-    #generate positions for visualization
+    # Generate positions for visualization
     pos_country = nx.spring_layout(G_country, seed=42)
 
-    #Plotly figure
+    # Plotly figure
     edge_x = []
     edge_y = []
     for edge in G_country.edges():
@@ -91,7 +93,7 @@ def update_country_graph(selected_topic, selected_years):
         collaborations = sum(d['weight'] for _, _, d in G_country.edges(node, data=True))
         node_text.append(f"{node}<br>Collaborations: {collaborations}<br>Degree: {G_country.degree(node)}")
 
-    #create edge trace
+    # Create edge trace
     edge_trace = go.Scatter(
         x=edge_x, y=edge_y,
         line=dict(width=0.5, color="gray"),
@@ -99,7 +101,7 @@ def update_country_graph(selected_topic, selected_years):
         mode="lines"
     )
 
-    #create nodes
+    # Create nodes
     node_trace = go.Scatter(
         x=node_x, y=node_y,
         mode="markers",
@@ -109,10 +111,10 @@ def update_country_graph(selected_topic, selected_years):
             line_width=2
         ),
         hoverinfo="text",
-        text=node_text  #this should help the tooltip. Fingers crossed
+        text=node_text
     )
 
-    #setting up and combining into a figure
+    # Setting up and combining into a figure
     fig = go.Figure(data=[edge_trace, node_trace],
                     layout=go.Layout(
                         title=f"Country Collaboration Network - {selected_topic} ({selected_years[0]}-{selected_years[1]})",
@@ -124,6 +126,6 @@ def update_country_graph(selected_topic, selected_years):
                     ))
     return fig
 
-#run the Dash app
+# Run the Dash app
 if __name__ == "__main__":
     app.run_server(debug=True)
