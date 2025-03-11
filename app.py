@@ -7,7 +7,7 @@ from dash import Dash, dcc, html, Input, Output
 import plotly.graph_objects as go
 from iso3166 import countries_by_alpha2
 
-df = pd.read_csv("Grant - OpenAlex/openalex_combined_dataset.csv")
+df = pd.read_csv("openalex_combined_dataset.csv")
 
 #UK's official name is too long. Need to shorten
 country_name_overrides = {
