@@ -2,5 +2,5 @@ networkx
 numpy
 pandas
 dash
-plotly.graph_objects
+plotly
 iso3166
