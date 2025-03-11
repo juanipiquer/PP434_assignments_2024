@@ -1,4 +1,3 @@
-itertools
 networkx
 numpy
 pandas
